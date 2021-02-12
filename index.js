@@ -26,7 +26,7 @@ function viewCart() {
     }
 
   if (cart.length > 1){
-    let moreItems = " ";
+    let moreItems = "";
     for(let i = 0; i < cart.length - 1; i++){
       moreItems += `${cart[i].itemName} at $${cart[i].itemPrice}, `;
       }
