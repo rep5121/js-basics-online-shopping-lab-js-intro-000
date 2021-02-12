@@ -19,7 +19,7 @@ function addToCart(item) {
 
 function viewCart() {
   let resultStr = "In your cart, you have ";
-  
+
   if (cart.length === 1){
     let singleItem = `${cart[0].itemName} at $${cart[0].itemPrice}.`;
     return resultStr + singleItem;
@@ -30,7 +30,7 @@ function viewCart() {
     for(let i = 0; i < cart.length - 1; i++){
       moreItems += `${cart[i].itemName} at $${cart[i].itemPrice},`;
       }
-    return resultStr + moreItems + ` and ${cart[cart.length - 1].itemName} at $${cart[cart.length -1].itemPrice}. `;
+    return resultStr + moreItems + ` and ${cart[cart.length - 1].itemName} at $${cart[cart.length -1].itemPrice}.`;
     }
 
   else{
