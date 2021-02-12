@@ -58,8 +58,8 @@ function removeFromCart(item) {
 
     else{
       return "That item is not in your cart."
-      }  
-    
+      }
+
     }
 }
 
