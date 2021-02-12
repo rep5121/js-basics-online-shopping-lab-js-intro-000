@@ -19,6 +19,7 @@ function addToCart(item) {
 
 function viewCart() {
   let resultStr = "In your cart, you have ";
+  
   if (cart.length === 1){
     let singleItem = `${cart[0].itemName} at $${cart[0].itemPrice}.`;
     return resultStr + singleItem;
